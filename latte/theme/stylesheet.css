@@ -4970,19 +4970,13 @@ a.feed-icon-forum:hover:after {
 ul.topiclist li {
   color: #271b08; }
 
-ul.topiclist li.row dt a.subforum.read {
-  background-image: url("./images/subforum_read.png"); }
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 1.5dppx) {
-    ul.topiclist li.row dt a.subforum.read {
-      background-image: url("./images/subforum_read_hd.png");
-      background-size: 11px 9px; } }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 1.5dppx) {
+  ul.topiclist li.row dt a.subforum.read {
+    background-size: 11px 9px; } }
 
-ul.topiclist li.row dt a.subforum.unread {
-  background-image: url("./images/subforum_unread.png"); }
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 1.5dppx) {
-    ul.topiclist li.row dt a.subforum.unread {
-      background-image: url("./images/subforum_unread_hd.png");
-      background-size: 11px 9px; } }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 1.5dppx) {
+  ul.topiclist li.row dt a.subforum.unread {
+    background-size: 11px 9px; } }
 
 li.row {
   border-top-color: white;
