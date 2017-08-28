@@ -1319,7 +1319,7 @@ fieldset.fields1 dl.pmlist dd.recipients {
 
 .row .pagination {
   display: block;
-  margin-top: -12px; }
+  margin-top: 0.3em; }
 
 .row .pagination > ul {
   margin: 0; }
