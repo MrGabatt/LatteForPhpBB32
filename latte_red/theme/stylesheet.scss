@@ -20,13 +20,17 @@
 */
 @import "custom_config";
 @import "style_config";
-@import "common";
-@import "links";
-@import "content";
-@import "buttons";
-@import "cp";
-@import "forms";
-@import "imageset";
-@import "responsive";
-@import "colours";
+@import "../../latte/theme/common";
+@import "../../latte/theme/links";
+@import "../../latte/theme/content";
+@import "../../latte/theme/buttons";
+@import "../../latte/theme/cp";
+@import "../../latte/theme/forms";
+@import "../../latte/theme/imageset";
+@import "../../latte/theme/responsive";
+@import "../../latte/theme/colours";
 @import "custom";
+@import "../../latte/theme/icons";
+@import "../../latte/theme/normalize";
+@import "../../latte/theme/utilities";
+
