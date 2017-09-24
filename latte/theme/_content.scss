@@ -472,7 +472,7 @@ dd.option {
 		.rtl & {
 			margin-#{$profile-side}: 0;
 			margin-#{$post-side}: -#{$post-margin};
-			margin-#{$post-side}: 0;
+			float: $profile-side;
 		}
 		width: 100%;
 		position: relative;

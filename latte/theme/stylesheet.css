@@ -2404,7 +2404,7 @@ dd.option {
     .rtl .postprofile + .postbody {
       margin-left: 0;
       margin-right: -160px;
-      margin-right: 0; }
+      float: left; }
     .search .postprofile + .postbody {
       margin-left: -260px; }
       .rtl .search .postprofile + .postbody {
